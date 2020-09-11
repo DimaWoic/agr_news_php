@@ -1,0 +1,17 @@
+<div id="content">
+            <div class="border mb-4 rounded border-secondary" id="cat-nav">
+                <div class="media m-2" >
+                    <div class="media-body" id="media-body">
+                        <div class="mt-3 mr-3 float-right" id="cat-nav">
+                           <p><h8>Все новости</h8></p>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+            <div class="paginator">   
+                <?php
+                include('templates/news/news_index.html')
+                ?>
+            </div>
+</div>

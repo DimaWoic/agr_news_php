@@ -1,0 +1,28 @@
+<div class="p-2 mb-2">
+    <nav class="navbar navbar-expand navbar-dark rounded sticky-top" id="nav">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="navbar-brand ml-3 mr-3" href="#" id="brand-img">
+                <img src="images/soroka.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Magpie</a>
+
+        <div class="dropdown" id="brand-m">
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="images/soroka.png" width="30" height="30" class="d-inline-block align-top" alt="">
+
+        </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdown-menu">
+            <a class="dropdown-item" href="#" id="dropdown-item">Все новости</a>
+              {% for c in categories %}
+            <a class="dropdown-item" href="#" id="dropdown-item">{{c.name}}</a>
+              {% endfor %}
+          </div>
+        </div>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <a class="navbar-brand ml-3 mr-3" href="https://t.me/rumagpie">
+                <img src="images/telegram.png" width="30" height="30" class="#" alt=""></a>
+            <a class="navbar-brand ml-3 mr-3" href="#">
+                <img src="images/feedback.png" width="30" height="30" class="#" alt=""></a>
+        </div>
+    </nav>
+  </div>
